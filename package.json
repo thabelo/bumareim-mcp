@@ -1,0 +1,29 @@
+{
+  "name": "bumareim-mcp",
+  "version": "0.1.0",
+  "description": "Connect Claude and other AI assistants to your BuMaReim business over the Model Context Protocol.",
+  "type": "module",
+  "bin": {
+    "bumareim-mcp": "bin/bumareim-mcp.js"
+  },
+  "files": [
+    "bin",
+    "README.md"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "bumareim",
+    "claude",
+    "restaurant",
+    "car-wash"
+  ],
+  "homepage": "https://bumareim.com",
+  "license": "MIT",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.31.0"
+  }
+}
