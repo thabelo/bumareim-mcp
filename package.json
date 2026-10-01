@@ -1,6 +1,6 @@
 {
   "name": "bumareim-mcp",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Connect Claude and other AI assistants to your BuMaReim business over the Model Context Protocol.",
   "type": "module",
   "bin": {
@@ -22,6 +22,13 @@
     "car-wash"
   ],
   "homepage": "https://bumareim.com",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thabelo/bumareim-mcp.git"
+  },
+  "bugs": {
+    "url": "https://github.com/thabelo/bumareim-mcp/issues"
+  },
   "license": "MIT",
   "dependencies": {
     "@modelcontextprotocol/sdk": "^1.31.0"
